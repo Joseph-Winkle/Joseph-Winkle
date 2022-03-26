@@ -6,7 +6,21 @@
     <description>Recent content in Posts on Joseph Winkle</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 26 Jan 2022 18:20:25 +0800</lastBuildDate><atom:link href="https://joseph-winkle.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Mar 2022 08:47:38 +0800</lastBuildDate><atom:link href="https://joseph-winkle.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assert</title>
+      <link>https://joseph-winkle.github.io/p/assert/</link>
+      <pubDate>Sat, 26 Mar 2022 08:47:38 +0800</pubDate>
+      
+      <guid>https://joseph-winkle.github.io/p/assert/</guid>
+      <description>assert（断言） Python assert（断言）用于判断一个表达式，在表达式条件为 false 的时候触发异常。断言可以在条件不满足程序运行的情况下直接返回错误，而不必等待程序运行后出现崩溃的情况，例如我们的代码只能在 Linux 系统下运行，可以先判断当前系统是否符合条件。
+语法格式如下：
+assert expression 等价于:
+if not expression: raise AssertionError assert 后面也可以紧跟参数:
+assert expression [, arguments] #方括号表示可以省略 等价于：
+if not expression: raise AssertionError(arguments) 实例 import sys assert (&amp;#39;linux&amp;#39; in sys.platform), &amp;#34;该代码只能在 Linux 下执行&amp;#34; # 接下来要执行的代码 </description>
+    </item>
+    
     <item>
       <title>人脸识别研究总结(综述向)</title>
       <link>https://joseph-winkle.github.io/p/%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB%E7%A0%94%E7%A9%B6%E6%80%BB%E7%BB%93%E7%BB%BC%E8%BF%B0%E5%90%91/</link>
